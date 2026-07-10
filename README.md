@@ -6,7 +6,6 @@ state by state.
 
 **[Live demo →](#)** *(deploy to Vercel/Netlify and drop the link here)*
 
-![RegexLab screenshot placeholder](#)
 
 ## Why this project exists
 
@@ -67,14 +66,6 @@ src/
     NFAGraph.jsx   # SVG rendering of the NFA
   App.jsx          # UI, wiring, step controls
 ```
-
-## Ideas for extending this (great for follow-up commits)
-
-- Add `{n,m}` bounded repetition support to the parser + NFA builder
-- Add `^` / `$` anchors
-- Convert the NFA to a DFA (subset construction) and visualize the difference in state count
-- Add a "generate matching strings" feature that walks the NFA to produce examples
-- Deploy live and add the link to this README
 
 ---
 
